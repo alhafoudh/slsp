@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe SLSP do
+describe SLSP::Connector, :if => false do
 
   before(:all) do
-    @slsp = SLSP.new(ENV["GMAIL_USERNAME"], ENV["GMAIL_PASSWORD"], ENV["ARCHIVE_PASSWORD"])
+    @slsp = SLSP::Connector.new(ENV["GMAIL_USERNAME"], ENV["GMAIL_PASSWORD"], ENV["ARCHIVE_PASSWORD"])
     @emails = @slsp.find_emails
   end
 
