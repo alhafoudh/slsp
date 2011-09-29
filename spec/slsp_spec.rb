@@ -21,9 +21,16 @@ describe SLSP do
     email = @emails.first
     file = @slsp.extract_archive(email)
 
-    tlog = @slsp.read_archive(file[:data])
+    str = @slsp.read_archive(file[:data])
 
-    tlog.should_not be(:empty)
+    str.should_not be(:empty)
+  end
+
+  it "parses transactions" do
+    pending "Waiting for data"
+    email = @emails.last
+    file = @slsp.extract_archive(email)
+    str = @slsp.read_archive(file[:data])
   end
 
 

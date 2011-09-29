@@ -1,9 +1,3 @@
-GIT
-  remote: git@github.com:freevision/mt940_parser.git
-  revision: e92e69eb7aea2b345027c7c195ca29236f572c01
-  specs:
-    mt940_parser (1.0.1)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -67,7 +61,6 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   mime
-  mt940_parser!
   pry
   rake
   rspec

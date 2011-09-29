@@ -1,6 +1,5 @@
 require 'gmail'
 require 'zipruby'
-require 'mt940'
 
 require 'awesome_print'
 require 'pry'
