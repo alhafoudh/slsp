@@ -23,7 +23,7 @@ describe SLSP::Parsers::HB do
 
     t[:src_account_prefix].should == "000000"
     t[:src_account_number].should == "0011622358"
-    t[:dst_accont_prefix].should == "000000"
+    t[:dst_account_prefix].should == "000000"
     t[:dst_account_number].should == "0011622366"
     t[:dst_bank_code].should == "0900"
     t[:dst_account_name].should == "Ustredie 2, Testovaci ucet"

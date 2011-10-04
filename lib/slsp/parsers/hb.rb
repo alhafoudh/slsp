@@ -14,7 +14,7 @@ module SLSP
             :date => Date.parse(obj[0]),
             :src_account_prefix => obj[1],
             :src_account_number => obj[2],
-            :dst_accont_prefix => obj[3],
+            :dst_account_prefix => obj[3],
             :dst_account_number => obj[4],
             :dst_bank_code => obj[5],
             :dst_account_name => obj[6],
